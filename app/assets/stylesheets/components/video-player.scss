@@ -13,10 +13,10 @@ $play-button-light: $color-white;
   a {
     font-size: .8em;
 
-    color: $color-black;
+    color: $color-white;
 
     &:visited {
-      color: $color-black;
+      color: $color-white;
     }
   }
 }
@@ -25,7 +25,8 @@ $play-button-light: $color-white;
   @include media-player;
 
   position: relative;
-  margin-top: 16px;
+  margin-top: 0;
+  padding-top: 16px;
   margin-bottom: 0;
 
   @include media(tablet) {

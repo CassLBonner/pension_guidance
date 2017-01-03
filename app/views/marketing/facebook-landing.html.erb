@@ -11,12 +11,12 @@
   <div class="l-marketing-promo">
     <div class="l-page-container l-marketing-promo__content">
       <div class="l-column-third">
-        <a href="/"><%= render partial: 'components/logo_svg', locals: { image_class: 'marketing-logo' } %></a>
+        <a href="/"><%= render partial: 'components/logo_with_strapline_svg', locals: { image_class: 'marketing-logo' } %></a>
       </div>
     </div>
   </div>
 </div>
-<div class="l-grid-row">
+<div class="l-grid-row l-marketing-row--flip">
   <div class="l-page-container">
     <div class="marketing-promo">
       <div class="l-column-full">
@@ -54,7 +54,7 @@
         <p>Find out about how you can take your pension money, from getting a regular income to taking your whole pot as cash.</p>
         <p>Speak to us over the phone or in person somewhere local to you.</p>
         <p>Pension Wise is free and impartial – we don’t recommend products or companies and won’t tell you how to invest your money.</p>
-        <p><a href="/appointments" class="button">Book online</a> <span class="marketing-promo__call">or phone <span class="marketing-promo__number">0800 138 3375</span></span></p>
+        <p class="marketing-book"><a href="/appointments" class="button">Book online</a> <span class="marketing-promo__call">or phone <span class="marketing-promo__number">0800 138 3375</span></span></p>
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@
 
 <div id="what-to-expect" class="l-grid-row l-marketing-row l-home-row--callout l-marketing-row--dog l-marketing-row--flat">
   <div class="l-page-container l-home-row-callout__content">
-    <div class="l-column-third">
+    <div class="l-column-third l-marketing-faux-column">
       &nbsp;
     </div>
     <div class="l-column-two-thirds">

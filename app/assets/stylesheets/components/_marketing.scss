@@ -21,10 +21,14 @@
   .l-home-row-callout__content {
     @include media(desktop) {
       background-image: image-url("campaigns/dogs/poster.png");
-      background-position: 111% 0%;
-      background-size: 71%;
+      background-position: 97% 0%;
+      background-size: 54%;
       padding-top: 2%;
       padding-bottom: 7%;
+
+      @include device-pixel-ratio(2) {
+        background-image: image-url("campaigns/dogs/poster-2x.png");
+      }
     }
   }
 }
@@ -54,8 +58,12 @@
     background-image: image-url("campaigns/dogs/banner.png");
     background-position: 90% 0%;
     background-repeat: no-repeat;
-    background-size: 53%;
+    background-size: 43%;
     padding: 19px 0 64px;
+
+    @include device-pixel-ratio(2) {
+      background-image: image-url("campaigns/dogs/banner-2x.png");
+    }
   }
 }
 
@@ -113,8 +121,12 @@
       background-image: image-url("campaigns/dogs/expectant.png");
       background-position: 0% 6px;
       background-repeat: no-repeat;
-      background-size: 49%;
+      background-size: 29%;
       padding-bottom: 5%;
+
+      @include device-pixel-ratio(2) {
+        background-image: image-url("campaigns/dogs/expectant-2x.png");
+      }
     }
   }
 }

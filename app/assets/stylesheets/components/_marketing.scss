@@ -21,11 +21,10 @@
   .l-home-row-callout__content {
     @include media(desktop) {
       background-image: image-url("campaigns/dogs/poster.png");
-      background-position: 111% 76%;
-      background-size: 73%;
-      padding-top: 4%;
-      padding-bottom: 5%;
-      margin-top: -1%;
+      background-position: 111% 0%;
+      background-size: 71%;
+      padding-top: 2%;
+      padding-bottom: 7%;
     }
   }
 }
@@ -96,10 +95,6 @@
   @include bold-36();
   margin-top: 16px;
   margin-bottom: .8em;
-
-  @include media(tablet) {
-    margin-top: 0;
-  }
 }
 
 .l-marketing-row {
@@ -116,9 +111,10 @@
   .l-home-row-callout__content {
     @include media(tablet) {
       background-image: image-url("campaigns/dogs/expectant.png");
-      background-position: 0% 31px;
+      background-position: 0% 6px;
       background-repeat: no-repeat;
       background-size: 49%;
+      padding-bottom: 5%;
     }
   }
 }
